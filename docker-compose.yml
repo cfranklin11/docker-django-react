@@ -14,12 +14,11 @@ services:
     volumes:
       - ./frontend:/app
       # One-way volume to use node_modules from inside image
-      - /app/hello-world/node_modules
+      - /app/node_modules
     ports:
       - "3000:3000"
     environment:
       - NODE_ENV=development
     depends_on:
       - backend
-    working_dir: /app/hello-world/
     command: npm start
