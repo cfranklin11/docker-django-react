@@ -1,10 +1,5 @@
-setup:
-  config:
-    DJANGO_SETTINGS_MODULE: hello_world.settings.production
-
 build:
   docker:
     web: Dockerfile
-
 run:
   web: python3 backend/manage.py runserver 0.0.0.0:$PORT
