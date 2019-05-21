@@ -1,7 +1,3 @@
-setup:
-  config:
-    DJANGO_SETTINGS_MODULE: hello_world.settings.production
-
 build:
   docker:
     web: Dockerfile
