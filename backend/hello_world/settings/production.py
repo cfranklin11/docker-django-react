@@ -5,7 +5,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = False
 ALLOWED_HOSTS = [os.environ.get("PRODUCTION_HOST")]
 
-INSTALLED_APPS.extend(["whitenoise.runserver_nostatic", "django.contrib.staticfiles"])
+INSTALLED_APPS.extend(["whitenoise.runserver_nostatic"])
 
 # Must insert after SecurityMiddleware, which is first in settings/common.py
 MIDDLEWARE.insert(1, "whitenoise.middleware.WhiteNoiseMiddleware")
