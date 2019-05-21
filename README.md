@@ -1,19 +1,20 @@
 # Docker + Django + React App Tutorial
 
-Code repo for a series of tutorials on setting up an app with Docker Compose, Django, and Create React App.
+Code repo for a series of tutorials on setting up an app with Docker Compose, Django, and Create React App. Each tutorial has its own branch (because it was difficult to get deployments to work from subdirectories).
 
-- [Part One: Creating an app with Docker Compose, Django, and Create React App](): TBD
-- [Part Two: Docker, Django, and React in Prod with WhiteNoise](): TBD
-- [Part Three: Docker, Django, and React Deployed to DigitalOcean via Travis CI](): TBD
+- Part One: [Creating an app with Docker Compose, Django, and Create React App](https://dev.to/englishcraig/creating-an-app-with-docker-compose-django-and-create-react-app-31lf): [`master`](https://github.com/cfranklin11/docker-django-rea/tree/development)
+- Part Two: Docker, Django, and React: Building Assets and Deploying to Heroku: [`production-heroku`](https://github.com/cfranklin11/docker-django-react/tree/production-heroku)
+- Part Three: Docker, Django, and React Deployed to DigitalOcean via Travis CI: TBD
 
 ## Dependencies
 
-Requires [Docker](https://docs.docker.com/docker-for-mac/install/)
+- All tutorials require [Docker](https://docs.docker.com/docker-for-mac/install/)
+- Deploying to Heroku requires the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 
 ## Setting up the app
 
-`cd` into the directory for the relevant tutorial, and run `docker-compose build`
+Checkout the branch for a given tutorial, and run `docker-compose build`
 
-## Running the app
+## Running the app on local
 
 Run `docker-compose up` to see messages in the terminal. Run `docker-compose start` to run the app in the background.
