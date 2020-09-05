@@ -8,6 +8,8 @@ services:
       - "8000:8000"
     stdin_open: true
     tty: true
+    environment:
+      - DJANGO_SETTINGS_MODULE=hello_world.settings.development
     command: python3 manage.py runserver 0.0.0.0:8000
   frontend:
     build: ./frontend
