@@ -1,10 +1,9 @@
 # Docker + Django + React App Tutorial
 
-Code repo for a series of tutorials on setting up an app with Docker Compose, Django, and Create React App. Each tutorial has its own branch (because it was difficult to get deployments to work from subdirectories).
+Code repo for a series of tutorials on setting up an app with Docker Compose, Django, and Create React App. `master` has the final version of the code.
 
-- Part One: [Creating an app with Docker Compose, Django, and Create React App](https://dev.to/englishcraig/creating-an-app-with-docker-compose-django-and-create-react-app-31lf): [`development`](https://github.com/cfranklin11/docker-django-rea/tree/development)
-- Part Two: [Docker, Django, and React: Building Assets and Deploying to Heroku](https://dev.to/englishcraig/docker-django-react-building-assets-and-deploying-to-heroku-24jh): [`production-heroku`](https://github.com/cfranklin11/docker-django-react/tree/production-heroku)
-- Part Three: Docker, Django, and React Deployed to DigitalOcean via Travis CI: TBD
+- Part One: [Creating an app with Docker Compose, Django, and Create React App](https://dev.to/englishcraig/creating-an-app-with-docker-compose-django-and-create-react-app-31lf)
+- Part Two: [Docker, Django, and React: Building Assets and Deploying to Heroku](https://dev.to/englishcraig/docker-django-react-building-assets-and-deploying-to-heroku-24jh)
 
 ## Dependencies
 
