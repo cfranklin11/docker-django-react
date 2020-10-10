@@ -24,3 +24,4 @@ services:
     depends_on:
       - backend
     command: npm start
+    stdin_open: true
